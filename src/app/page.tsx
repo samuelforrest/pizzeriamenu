@@ -1,7 +1,21 @@
-'use client';
-import { useState } from 'react';
-import { motion } from 'framer-motion';
-import { Menu, ArrowRight, CheckCircle, XCircle, Heart, Calendar } from 'lucide-react';
+"use client";
+import { useState } from "react";
+import { motion } from "framer-motion";
+import {
+  Menu,
+  ArrowRight,
+  CheckCircle,
+  XCircle,
+  Heart,
+  Calendar,
+  Mail,
+  Phone,
+  Award,
+  Twitter,
+  Linkedin,
+  Github,
+  Rocket
+} from "lucide-react";
 import { Button } from '@/components/ui/button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
